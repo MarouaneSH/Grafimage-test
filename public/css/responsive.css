@@ -1,0 +1,84 @@
+
+/* //Large Desktop screen */
+@media screen and (min-width: 1600px) {
+    #main-header .br-brand{
+        right: 20%;
+    }
+    #main-content .dessin-left {
+        bottom: -20px;
+    }
+    #main-content .dessin-right {
+        bottom: 50px;
+    }
+
+    .br-section::before{
+        transform: skewY(-4deg);
+    }
+  }
+  
+/* //small desktop screen */
+@media screen and (min-width: 950px )  and (max-width:1124px) {
+    #main-header .br-brand img{
+        width: 150px;
+    }
+    #main-header .br-brand{
+        top: 90px;
+        right: 60px;
+    }
+    #main-content .br-section-info {
+        margin-top: 50px;
+    }
+
+  }
+
+/* //Mobile and tablet screen */
+
+@media screen and (max-width: 950px ) {
+    #main-header .br-brand{
+        position: static;
+        margin-top: 100px;
+    }
+    #main-header .header-bg{
+        align-items: center;
+    }
+    #main-content .event-date img, #main-content .event-participe, #main-content .event-desc{
+        width: auto;
+        max-width: 100%;
+    }
+    #main-content .br-section-info{
+        padding-top: 150px;
+    }
+    #main-content .br-section-info, #main-content .br-section-info .br-info-content{
+        transform: translateY(0);
+    }
+    .video-player{
+        width: 90%;
+    }
+    #main-content .event-location{
+        margin-bottom: 260px;
+    }
+    .br-section-inscription{
+        margin-top: 50px;
+    }
+
+    #main-content .dessin-left {
+        bottom: 35px;
+    }
+    #main-content .dessin-right {
+        bottom: 142px;
+    }
+    .btn {
+        padding: 15px 40px;
+    }
+    #br-form .form-group{
+        flex-direction: column;
+    }
+    #br-form{
+        width: 100%;
+    }
+    .br-offre-bottom h2{
+        margin-bottom: 80px;
+    }
+
+}
+  
